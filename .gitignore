@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Файлы, которые создаются во время работы (состояние вашего телевизора)
+backup_packages.txt
+cleaner_log.txt
+
+# Секреты и локальные настройки
+.env
+*.local
+
+# Редакторы и система
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini

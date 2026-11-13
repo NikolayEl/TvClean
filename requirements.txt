@@ -1,0 +1,9 @@
+# Зависимости TV Cleaner
+# Установка: python -m pip install -r requirements.txt
+
+colorama>=0.4.6
+
+# Необязательно: adb-shell — альтернатива вызову adb.exe через subprocess.
+# Программа по умолчанию работает с обычным adb (см. ADB_PATH в config.py),
+# но adb-shell можно использовать для отладки без установленного platform-tools.
+adb-shell>=0.4.0
